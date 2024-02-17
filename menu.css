@@ -1,0 +1,5 @@
+*{margin:0;padding:0;user-select:none;box-sizing:border-box;color:#fff}.cabeça{position:fixed;width:250px;height:100%;left:-250px;background-color:#363636;transition:.4s ease}.cabeça .txt{color:#fff;font-size:25px;font-weight:600;line-height:65px;text-align:center;background-color:#535353;letter-spacing:1px}.cabeça ul{list-style:none;width:100%;height:100%}.cabeça ul li{line-height:60px;border-bottom:1px solid rgba(255,255,255,0.1)}.cabeça ul li a{position:relative;color:#fff;text-decoration:none;font-size:18px;padding-left:40px;font-weight:500;display:block;width:100%;border-left:3px solid transparent}.cabeça ul li a:hover{color:#f40;background:#1e1e1e;border-left-color:#f40;transition-duration:.4s}.cabeça ul li:last-child{border-bottom:1px solid #f40}.btn{position:absolute;top:10px;left:10px;cursor:pointer;transition-duration:.4s}.btn img{width:30px}.btn #imgxx{width:30px}.btn img:hover{width:35px;transition:.5s}
+
+
+
+

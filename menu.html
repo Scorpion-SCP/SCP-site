@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="btn" onclick=" mostrar()" id="btn">
+        <img src="menu.png" id="img">
+    </div>
+
+    <header class="cabeça" id="cabeça">
+        <div class="btn" onclick=" fechar()" id="btn">
+        <img src="x.png" id="img">
+    </div>
+        <div class="txt">side menu</div>
+        <ul>
+            <li><a href="#">SCP </a></li>
+            <li><a href="#">MILA</a></li>
+            <li><a href="#">JOVENS</a></li>
+            <li><a href="#">doação</a></li>
+            <li><a href="#">creditos</a></li>
+        </ul>
+    </header>
+    
+    <script>
+        function mostrar(){
+            document.getElementById("cabeça").style.left = "0px"
+        }
+
+        function fechar(){
+            document.getElementById("cabeça").style.left = "-250px"
+        }
+    </script>
+</body>
+</html>
